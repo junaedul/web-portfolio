@@ -1,0 +1,121 @@
+* {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 500;
+    color: #ff991c;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.798);
+}
+
+.mother {
+    display: flex;
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half1 {
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.half2 {
+    width: 35%;
+    margin-top: 5%;
+}
+
+.half2 img {
+    width: 100%;
+}
+
+.hireBut {
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    margin-top: 10px;
+    padding: 5px 9px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.spanWeb {
+    color: #ff9615;
+}
+
+.hireBut:hover {
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.mother1 {
+    display: flex;
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+.firsthalfpart {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.secondImg {
+    width: 100%;
+}
+
+.secondhalfpart {
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.exStarting{
+    margin-left: 2%;
+}
+.experience{
+    margin-left: 3%;
+    display: flex;
+    
+}
+.ex1{
+    padding: 45px 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 40%;
+    height: 250px;
+    box-shadow: 10px 10px 40px #a55602;
+    background-image: url("biography-bg.png");
+    border-left: 8px solid orange;
+}
+.itEx{
+    color: #e17807;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer {
+    text-align: center;
+    background-image: url("footer-bg.png");
+}
+.fa{
+    margin: 16px;
+    text-decoration: none;
+}
+.fa-facebook{
+    color: #0059ff;
+}
+.fa-instagram{
+    color: #ff0000;
+}
+.fa-linkedin{
+    color: #0059ff;
+}
